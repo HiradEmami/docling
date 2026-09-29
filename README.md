@@ -165,3 +165,12 @@ The project was started by the AI for knowledge team at IBM Research Zurich.
 [docling_document]: https://docling-project.github.io/docling/concepts/docling_document/
 [integrations]: https://docling-project.github.io/docling/integrations/
 [extraction]: https://docling-project.github.io/docling/_generated/examples/extraction/
+
+## Pelagion source baseline
+
+[`.pelagion-src-version`](.pelagion-src-version) records the initial source baseline for
+`feat/init-pelagion-takeover`. It identifies the original upstream and the Pelagion
+fork by repository name and ID. It records their main/master branch commit hashes,
+commit timestamps, tags and declared versions where available. The fork commit is
+the exact base of the initial feature branch. This is a fixed provenance record;
+it does not update automatically when branches advance. Git history preserves it.
